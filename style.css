@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+nav {
+    color: red;
+}
 .heading {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
