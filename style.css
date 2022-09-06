@@ -5,8 +5,11 @@ body {
     height: 100vh;
     display: flex;
 }
+
+/*adding color to h1*/
 h1{
     color: yellow;
+    text-align: center;
 }
 nav {
     width: 100vw;
