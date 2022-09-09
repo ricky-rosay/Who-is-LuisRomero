@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header class="top-of-page">
         <h1>Luis Ricardo Romero</h1>
         <nav>
             <ul>
@@ -49,40 +49,50 @@
         </nav>
     </header>
 
-    <section id="home" class="home-section">
-        <h2>Home</h2>
-        <img class="headshot" src="./images/Headshot.JPG" alt="Headshot of Luis Ricardo Romero">
-        <p>I am an aspiring full stack developer. I hope to one day be a software developer.</p>
-    </section>
-    <section id="about" class="home-section">
-        <h2>About Me</h2>
-        <img id="headshot2" src="./images/casual.JPG" alt="">
-    </section>
-    <section id="work" class="home-section">
-        <h2>Work</h2>
-        <img id="headshot3" src="./images/nephew.JPG" alt="">
-    </section>
-    <section id="contact" class="home-section">
-        <h2>Contact Me</h2>
-        <p>
-            testing
-        </p>
-        <p>
-            testing
-        </p>
-        <p>
-            testing
-        </p>
-        <p>
-            testing
-        </p>
-        <p>
-            testing
-        </p>
-        <p>
-            testing
-        </p>
-    </section>
+    <main>
+        <section id="home" class="home-section">
+            <h2>Home</h2>
+            <img class="headshot" src="./images/Headshot.JPG" alt="Headshot of Luis Ricardo Romero">
+            <p>I am an aspiring full stack developer. I hope to one day be a software developer.</p>
+        </section>
+        <section id="about" class="home-section">
+            <h2>About Me</h2>
+            <div class="test-image">
+                <img id="headshot2" src="./images/casual.JPG" alt="">
+            </div>
+        </section>
+        <section id="work" class="row justify-center">
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Work</h2>
+                    <div>
+                        <p></p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section id="contact" class="home-section">
+            <h2>Contact Me</h2>
+            <p>
+                testing
+            </p>
+            <p>
+                testing
+            </p>
+            <p>
+                testing
+            </p>
+            <p>
+                testing
+            </p>
+            <p>
+                testing
+            </p>
+            <p>
+                testing
+            </p>
+        </section>
+    </main>
     
 </body>
 </html>
