@@ -1,7 +1,7 @@
 body {
     background-color: black;
     /*padding moves the text off the left side*/
-    padding: 10px;
+    padding: 0;
     margin: 0;
     color: yellow;
 }
@@ -134,7 +134,10 @@ h2 {
     display: inline-block;
 }
 
-
+.work-header {
+    padding-left: 20px;
+    text-decoration: underline;
+}
 
 
 
@@ -172,7 +175,26 @@ h2 {
 section{
     text-decoration-color: yellow;
 }
+/*here down starts the work boxes that will showcase my previous work*/
+.work-boxes {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 175px auto;
+}
 
+.work-boxes .box {
+    position: relative;
+    width: calc(400px -30px);
+    height: calc(300px -30px);
+    background: yellow;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+/**
 .row {
     display: flex;
     flex-wrap: wrap;
