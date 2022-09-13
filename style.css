@@ -287,4 +287,15 @@ footer h5 {
 }
 
 
-@media 
+@media screen and (max-width 820px) {
+    .second-word h {
+        color: red;
+    }
+}
+
+@media screen {
+    .second-word {
+        color: blue;
+    }
+    
+}
